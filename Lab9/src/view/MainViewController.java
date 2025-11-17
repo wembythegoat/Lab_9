@@ -65,6 +65,8 @@ public class MainViewController implements Initializable {
         closeItem.setDisable(true);
 
         newItem.setAccelerator(KeyCombination.keyCombination("Ctrl+N"));
+        newItem.setAccelerator(KeyCombination.keyCombination("Ctrl+N"));
+        newItem.setAccelerator(KeyCombination.keyCombination("Ctrl+N"));
 
         ContextMenu popup = new ContextMenu();
         MenuItem help = new MenuItem("Help");
