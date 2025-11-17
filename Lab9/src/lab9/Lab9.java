@@ -25,7 +25,7 @@ public class Lab9 extends Application {
     
     @Override
     public void start (Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("view/MainView.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/view/MainView.fxml"));
         
         stage.setTitle("FXML Welcome");
         stage.setScene(new Scene(root, 300, 275));
